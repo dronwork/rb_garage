@@ -11,7 +11,7 @@ Functional requirements
 * I want to be able to prioritize tasks into a project
 * I want to be able to choose deadline for my task
 * I want to be able to mark a task as 'done'
-
+--------------------------------------------------------
 * Ruby version 2.4.1
 
 * Rails version 5.1.4
