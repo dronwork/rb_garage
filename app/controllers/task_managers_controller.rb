@@ -1,4 +1,5 @@
 class TaskManagersController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_task_manager, only: [:show, :edit, :update, :destroy]
 
   # GET /task_managers
