@@ -1,0 +1,80 @@
+* {
+box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+body {
+font-family: Arial;
+background-color: #3498DB;
+padding: 50px;
+}
+h2 {
+
+width: 300px;
+    text-align: left;
+    color: #FF8C00;
+    font-size: 25px;
+
+}
+.field {
+background-color: #FFF;
+padding: 10px;
+border-radius: 50px;
+
+}
+
+.field_r {
+    color: #7FFF00;
+}
+
+.field {
+text-align: center;
+}
+
+
+.field {
+text-align: center;
+background-color: #ECF0F1;
+
+border-radius: 3px;
+font-size: 10px;
+font-weight: bold;
+padding: 10px 0;
+width: 200px;
+transition: border .5s;
+}
+
+input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+.btn {
+  border: 2px solid transparent;
+  background: #3498DB;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #2980B9;
+}
+
+.login-link {
+  font-size: 12px;
+  color: #444;
+  display: block;
+	margin-top: 12px;
+}
